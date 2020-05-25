@@ -4,7 +4,7 @@ Turret distributes Ansible® execution with a simple API and minimal set of requ
 
 ## Why
 
-There is a gap between the simplicty of CLI ansible and the full featured Ansible Tower®/AWX. We think, Turret can fullfil this gap by keeping the simpliticy. The idea behind Turret was to run Ansible as a backend application.
+There is a gap between the simplicity of CLI Ansible and the full featured Ansible Tower®/AWX. We think, Turret can fulfill this gap by keeping the simplicity. The idea behind Turret was to run Ansible as a backend application.
 
 To use Turret for:
 
@@ -16,16 +16,16 @@ To use Turret for:
 
 Because Turret should never compete with Ansible Tower®/AWX, these are non-goals:
 
-- Full blown user friendly UI
+- Full blown user-friendly UI
 - User management
 - Role based access control
 - Inventory management
 
 ## Requirements
 
-While simplitcy is main goal, scaling Ansible is the side goal. Turret can run Ansible on a simgle host but also use exisitng infra, such as Kubernetes, Hashicorp Nomad® or Apache Mesos to scale Ansible execution.
+While simplicity is the main goal, scaling Ansible is the side goal. Turret can run Ansible on a single host but also uses existing infra, such as Kubernetes, Hashicorp Nomad® or Apache Mesos to scale Ansible execution.
 
-Currently a PoC existis with the follwoing minimal requirements:
+Currently, a PoC exists with the following minimal requirements:
 
 - A RDBMS (SQlite, MySQL, PostgreSQL)
 - Redis (Queue)
